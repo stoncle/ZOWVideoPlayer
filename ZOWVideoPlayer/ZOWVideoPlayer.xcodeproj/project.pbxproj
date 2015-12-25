@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F916125C1C283D4700F6E951 /* ZOWVideoPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = F92873821C23FDE9002B3D48 /* ZOWVideoPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F916125D1C283D4700F6E951 /* ZOWVideoCache.h in Headers */ = {isa = PBXBuildFile; fileRef = F92873851C23FE56002B3D48 /* ZOWVideoCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F916125E1C283D4700F6E951 /* ZOWVideoPlayerItemObject.h in Headers */ = {isa = PBXBuildFile; fileRef = F92873881C23FEFA002B3D48 /* ZOWVideoPlayerItemObject.h */; };
+		F916125F1C283D6900F6E951 /* ZOWVideoSourceItem.h in Headers */ = {isa = PBXBuildFile; fileRef = F928738A1C23FEFA002B3D48 /* ZOWVideoSourceItem.h */; };
+		F91612601C283D6900F6E951 /* NSString+Suffix.h in Headers */ = {isa = PBXBuildFile; fileRef = F92873A91C24092D002B3D48 /* NSString+Suffix.h */; };
+		F91612611C283D6900F6E951 /* NSString+Md5.h in Headers */ = {isa = PBXBuildFile; fileRef = F92873A61C24091E002B3D48 /* NSString+Md5.h */; };
+		F91612621C283D6900F6E951 /* ZOWSchemedURL.h in Headers */ = {isa = PBXBuildFile; fileRef = F928738E1C23FF7D002B3D48 /* ZOWSchemedURL.h */; };
+		F91612631C283D6900F6E951 /* ZOWThreadDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = F92873901C23FF7D002B3D48 /* ZOWThreadDictionary.h */; };
+		F91612641C283D6900F6E951 /* ZOWVideoSourceLoader.h in Headers */ = {isa = PBXBuildFile; fileRef = F92873941C24000C002B3D48 /* ZOWVideoSourceLoader.h */; };
+		F91612651C283D6900F6E951 /* ZOWVideoPlayerLayerContainerView.h in Headers */ = {isa = PBXBuildFile; fileRef = F92873A21C24029F002B3D48 /* ZOWVideoPlayerLayerContainerView.h */; };
+		F91612661C283D6900F6E951 /* InstagramVideoView.h in Headers */ = {isa = PBXBuildFile; fileRef = F92873991C2400AF002B3D48 /* InstagramVideoView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F91612671C283D6900F6E951 /* ZOWVideoIndicator.h in Headers */ = {isa = PBXBuildFile; fileRef = F928739C1C2401CD002B3D48 /* ZOWVideoIndicator.h */; };
+		F91612681C283D6900F6E951 /* ZOWVideoMuteIndicator.h in Headers */ = {isa = PBXBuildFile; fileRef = F928739E1C2401CD002B3D48 /* ZOWVideoMuteIndicator.h */; };
+		F92873841C23FDE9002B3D48 /* ZOWVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F92873831C23FDE9002B3D48 /* ZOWVideoPlayer.m */; };
+		F92873871C23FE56002B3D48 /* ZOWVideoCache.m in Sources */ = {isa = PBXBuildFile; fileRef = F92873861C23FE56002B3D48 /* ZOWVideoCache.m */; };
+		F928738C1C23FEFA002B3D48 /* ZOWVideoPlayerItemObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F92873891C23FEFA002B3D48 /* ZOWVideoPlayerItemObject.m */; };
+		F928738D1C23FEFA002B3D48 /* ZOWVideoSourceItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F928738B1C23FEFA002B3D48 /* ZOWVideoSourceItem.m */; };
+		F92873921C23FF7D002B3D48 /* ZOWSchemedURL.m in Sources */ = {isa = PBXBuildFile; fileRef = F928738F1C23FF7D002B3D48 /* ZOWSchemedURL.m */; };
+		F92873931C23FF7D002B3D48 /* ZOWThreadDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = F92873911C23FF7D002B3D48 /* ZOWThreadDictionary.m */; };
+		F92873961C24000C002B3D48 /* ZOWVideoSourceLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = F92873951C24000C002B3D48 /* ZOWVideoSourceLoader.m */; };
+		F928739B1C2400AF002B3D48 /* InstagramVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = F928739A1C2400AF002B3D48 /* InstagramVideoView.m */; };
+		F92873A01C2401CD002B3D48 /* ZOWVideoIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = F928739D1C2401CD002B3D48 /* ZOWVideoIndicator.m */; };
+		F92873A11C2401CD002B3D48 /* ZOWVideoMuteIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = F928739F1C2401CD002B3D48 /* ZOWVideoMuteIndicator.m */; };
+		F92873A41C24029F002B3D48 /* ZOWVideoPlayerLayerContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F92873A31C24029F002B3D48 /* ZOWVideoPlayerLayerContainerView.m */; };
+		F92873A81C24091E002B3D48 /* NSString+Md5.m in Sources */ = {isa = PBXBuildFile; fileRef = F92873A71C24091E002B3D48 /* NSString+Md5.m */; };
+		F92873AB1C24092D002B3D48 /* NSString+Suffix.m in Sources */ = {isa = PBXBuildFile; fileRef = F92873AA1C24092D002B3D48 /* NSString+Suffix.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F928736E1C23FCF9002B3D48 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F916128E1C284E3900F6E951 /* refresh@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "refresh@2x.png"; sourceTree = "<group>"; };
+		F916128F1C284E3900F6E951 /* refresh@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "refresh@3x.png"; sourceTree = "<group>"; };
+		F91612901C284E3900F6E951 /* video_loading@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "video_loading@2x.png"; sourceTree = "<group>"; };
+		F91612911C284E3900F6E951 /* video_loading@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "video_loading@3x.png"; sourceTree = "<group>"; };
+		F91612921C284E3900F6E951 /* voice_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voice_off@2x.png"; sourceTree = "<group>"; };
+		F91612931C284E3900F6E951 /* voice_off@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voice_off@3x.png"; sourceTree = "<group>"; };
+		F91612941C284E3900F6E951 /* voice_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voice_on@2x.png"; sourceTree = "<group>"; };
+		F91612951C284E3900F6E951 /* voice_on@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voice_on@3x.png"; sourceTree = "<group>"; };
+		F92873701C23FCF9002B3D48 /* libZOWVideoPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libZOWVideoPlayer.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F92873821C23FDE9002B3D48 /* ZOWVideoPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZOWVideoPlayer.h; sourceTree = "<group>"; };
+		F92873831C23FDE9002B3D48 /* ZOWVideoPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZOWVideoPlayer.m; sourceTree = "<group>"; };
+		F92873851C23FE56002B3D48 /* ZOWVideoCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZOWVideoCache.h; sourceTree = "<group>"; };
+		F92873861C23FE56002B3D48 /* ZOWVideoCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZOWVideoCache.m; sourceTree = "<group>"; };
+		F92873881C23FEFA002B3D48 /* ZOWVideoPlayerItemObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZOWVideoPlayerItemObject.h; sourceTree = "<group>"; };
+		F92873891C23FEFA002B3D48 /* ZOWVideoPlayerItemObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZOWVideoPlayerItemObject.m; sourceTree = "<group>"; };
+		F928738A1C23FEFA002B3D48 /* ZOWVideoSourceItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZOWVideoSourceItem.h; sourceTree = "<group>"; };
+		F928738B1C23FEFA002B3D48 /* ZOWVideoSourceItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZOWVideoSourceItem.m; sourceTree = "<group>"; };
+		F928738E1C23FF7D002B3D48 /* ZOWSchemedURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZOWSchemedURL.h; sourceTree = "<group>"; };
+		F928738F1C23FF7D002B3D48 /* ZOWSchemedURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZOWSchemedURL.m; sourceTree = "<group>"; };
+		F92873901C23FF7D002B3D48 /* ZOWThreadDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZOWThreadDictionary.h; sourceTree = "<group>"; };
+		F92873911C23FF7D002B3D48 /* ZOWThreadDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZOWThreadDictionary.m; sourceTree = "<group>"; };
+		F92873941C24000C002B3D48 /* ZOWVideoSourceLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZOWVideoSourceLoader.h; sourceTree = "<group>"; };
+		F92873951C24000C002B3D48 /* ZOWVideoSourceLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZOWVideoSourceLoader.m; sourceTree = "<group>"; };
+		F92873991C2400AF002B3D48 /* InstagramVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstagramVideoView.h; sourceTree = "<group>"; };
+		F928739A1C2400AF002B3D48 /* InstagramVideoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstagramVideoView.m; sourceTree = "<group>"; };
+		F928739C1C2401CD002B3D48 /* ZOWVideoIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZOWVideoIndicator.h; sourceTree = "<group>"; };
+		F928739D1C2401CD002B3D48 /* ZOWVideoIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZOWVideoIndicator.m; sourceTree = "<group>"; };
+		F928739E1C2401CD002B3D48 /* ZOWVideoMuteIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZOWVideoMuteIndicator.h; sourceTree = "<group>"; };
+		F928739F1C2401CD002B3D48 /* ZOWVideoMuteIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZOWVideoMuteIndicator.m; sourceTree = "<group>"; };
+		F92873A21C24029F002B3D48 /* ZOWVideoPlayerLayerContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZOWVideoPlayerLayerContainerView.h; sourceTree = "<group>"; };
+		F92873A31C24029F002B3D48 /* ZOWVideoPlayerLayerContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZOWVideoPlayerLayerContainerView.m; sourceTree = "<group>"; };
+		F92873A61C24091E002B3D48 /* NSString+Md5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Md5.h"; sourceTree = "<group>"; };
+		F92873A71C24091E002B3D48 /* NSString+Md5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Md5.m"; sourceTree = "<group>"; };
+		F92873A91C24092D002B3D48 /* NSString+Suffix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Suffix.h"; sourceTree = "<group>"; };
+		F92873AA1C24092D002B3D48 /* NSString+Suffix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Suffix.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F928736D1C23FCF9002B3D48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F916128D1C284D9500F6E951 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				F916128E1C284E3900F6E951 /* refresh@2x.png */,
+				F916128F1C284E3900F6E951 /* refresh@3x.png */,
+				F91612901C284E3900F6E951 /* video_loading@2x.png */,
+				F91612911C284E3900F6E951 /* video_loading@3x.png */,
+				F91612921C284E3900F6E951 /* voice_off@2x.png */,
+				F91612931C284E3900F6E951 /* voice_off@3x.png */,
+				F91612941C284E3900F6E951 /* voice_on@2x.png */,
+				F91612951C284E3900F6E951 /* voice_on@3x.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		F92873671C23FCF9002B3D48 = {
+			isa = PBXGroup;
+			children = (
+				F92873721C23FCF9002B3D48 /* ZOWVideoPlayer */,
+				F92873711C23FCF9002B3D48 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F92873711C23FCF9002B3D48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F92873701C23FCF9002B3D48 /* libZOWVideoPlayer.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F92873721C23FCF9002B3D48 /* ZOWVideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				F916128D1C284D9500F6E951 /* Image */,
+				F928737C1C23FDAF002B3D48 /* Model */,
+				F92873811C23FDAF002B3D48 /* View */,
+			);
+			path = ZOWVideoPlayer;
+			sourceTree = "<group>";
+		};
+		F928737C1C23FDAF002B3D48 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F92873821C23FDE9002B3D48 /* ZOWVideoPlayer.h */,
+				F92873831C23FDE9002B3D48 /* ZOWVideoPlayer.m */,
+				F928737D1C23FDAF002B3D48 /* Cache */,
+				F928737E1C23FDAF002B3D48 /* Domain */,
+				F928737F1C23FDAF002B3D48 /* Tool */,
+				F92873801C23FDAF002B3D48 /* VideoLoader */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F928737D1C23FDAF002B3D48 /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				F92873851C23FE56002B3D48 /* ZOWVideoCache.h */,
+				F92873861C23FE56002B3D48 /* ZOWVideoCache.m */,
+			);
+			path = Cache;
+			sourceTree = "<group>";
+		};
+		F928737E1C23FDAF002B3D48 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				F92873881C23FEFA002B3D48 /* ZOWVideoPlayerItemObject.h */,
+				F92873891C23FEFA002B3D48 /* ZOWVideoPlayerItemObject.m */,
+				F928738A1C23FEFA002B3D48 /* ZOWVideoSourceItem.h */,
+				F928738B1C23FEFA002B3D48 /* ZOWVideoSourceItem.m */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		F928737F1C23FDAF002B3D48 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				F92873A51C2408B5002B3D48 /* Category */,
+				F928738E1C23FF7D002B3D48 /* ZOWSchemedURL.h */,
+				F928738F1C23FF7D002B3D48 /* ZOWSchemedURL.m */,
+				F92873901C23FF7D002B3D48 /* ZOWThreadDictionary.h */,
+				F92873911C23FF7D002B3D48 /* ZOWThreadDictionary.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		F92873801C23FDAF002B3D48 /* VideoLoader */ = {
+			isa = PBXGroup;
+			children = (
+				F92873941C24000C002B3D48 /* ZOWVideoSourceLoader.h */,
+				F92873951C24000C002B3D48 /* ZOWVideoSourceLoader.m */,
+			);
+			path = VideoLoader;
+			sourceTree = "<group>";
+		};
+		F92873811C23FDAF002B3D48 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F92873A21C24029F002B3D48 /* ZOWVideoPlayerLayerContainerView.h */,
+				F92873A31C24029F002B3D48 /* ZOWVideoPlayerLayerContainerView.m */,
+				F92873971C240065002B3D48 /* InstagramVideoView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F92873971C240065002B3D48 /* InstagramVideoView */ = {
+			isa = PBXGroup;
+			children = (
+				F92873991C2400AF002B3D48 /* InstagramVideoView.h */,
+				F928739A1C2400AF002B3D48 /* InstagramVideoView.m */,
+				F92873981C240065002B3D48 /* Indicator */,
+			);
+			path = InstagramVideoView;
+			sourceTree = "<group>";
+		};
+		F92873981C240065002B3D48 /* Indicator */ = {
+			isa = PBXGroup;
+			children = (
+				F928739C1C2401CD002B3D48 /* ZOWVideoIndicator.h */,
+				F928739D1C2401CD002B3D48 /* ZOWVideoIndicator.m */,
+				F928739E1C2401CD002B3D48 /* ZOWVideoMuteIndicator.h */,
+				F928739F1C2401CD002B3D48 /* ZOWVideoMuteIndicator.m */,
+			);
+			path = Indicator;
+			sourceTree = "<group>";
+		};
+		F92873A51C2408B5002B3D48 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				F92873A91C24092D002B3D48 /* NSString+Suffix.h */,
+				F92873AA1C24092D002B3D48 /* NSString+Suffix.m */,
+				F92873A61C24091E002B3D48 /* NSString+Md5.h */,
+				F92873A71C24091E002B3D48 /* NSString+Md5.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F92873FC1C241DC5002B3D48 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F916125C1C283D4700F6E951 /* ZOWVideoPlayer.h in Headers */,
+				F916125D1C283D4700F6E951 /* ZOWVideoCache.h in Headers */,
+				F91612661C283D6900F6E951 /* InstagramVideoView.h in Headers */,
+				F916125F1C283D6900F6E951 /* ZOWVideoSourceItem.h in Headers */,
+				F91612601C283D6900F6E951 /* NSString+Suffix.h in Headers */,
+				F91612611C283D6900F6E951 /* NSString+Md5.h in Headers */,
+				F91612621C283D6900F6E951 /* ZOWSchemedURL.h in Headers */,
+				F91612631C283D6900F6E951 /* ZOWThreadDictionary.h in Headers */,
+				F91612641C283D6900F6E951 /* ZOWVideoSourceLoader.h in Headers */,
+				F91612651C283D6900F6E951 /* ZOWVideoPlayerLayerContainerView.h in Headers */,
+				F91612671C283D6900F6E951 /* ZOWVideoIndicator.h in Headers */,
+				F91612681C283D6900F6E951 /* ZOWVideoMuteIndicator.h in Headers */,
+				F916125E1C283D4700F6E951 /* ZOWVideoPlayerItemObject.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F928736F1C23FCF9002B3D48 /* ZOWVideoPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F92873791C23FCF9002B3D48 /* Build configuration list for PBXNativeTarget "ZOWVideoPlayer" */;
+			buildPhases = (
+				F928736C1C23FCF9002B3D48 /* Sources */,
+				F928736D1C23FCF9002B3D48 /* Frameworks */,
+				F928736E1C23FCF9002B3D48 /* CopyFiles */,
+				F92873FC1C241DC5002B3D48 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZOWVideoPlayer;
+			productName = ZOWVideoPlayer;
+			productReference = F92873701C23FCF9002B3D48 /* libZOWVideoPlayer.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F92873681C23FCF9002B3D48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = stoncle;
+				TargetAttributes = {
+					F928736F1C23FCF9002B3D48 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = F928736B1C23FCF9002B3D48 /* Build configuration list for PBXProject "ZOWVideoPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F92873671C23FCF9002B3D48;
+			productRefGroup = F92873711C23FCF9002B3D48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F928736F1C23FCF9002B3D48 /* ZOWVideoPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F928736C1C23FCF9002B3D48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F92873AB1C24092D002B3D48 /* NSString+Suffix.m in Sources */,
+				F92873A01C2401CD002B3D48 /* ZOWVideoIndicator.m in Sources */,
+				F92873871C23FE56002B3D48 /* ZOWVideoCache.m in Sources */,
+				F92873A81C24091E002B3D48 /* NSString+Md5.m in Sources */,
+				F928739B1C2400AF002B3D48 /* InstagramVideoView.m in Sources */,
+				F92873961C24000C002B3D48 /* ZOWVideoSourceLoader.m in Sources */,
+				F92873A11C2401CD002B3D48 /* ZOWVideoMuteIndicator.m in Sources */,
+				F92873A41C24029F002B3D48 /* ZOWVideoPlayerLayerContainerView.m in Sources */,
+				F928738D1C23FEFA002B3D48 /* ZOWVideoSourceItem.m in Sources */,
+				F92873921C23FF7D002B3D48 /* ZOWSchemedURL.m in Sources */,
+				F92873931C23FF7D002B3D48 /* ZOWThreadDictionary.m in Sources */,
+				F928738C1C23FEFA002B3D48 /* ZOWVideoPlayerItemObject.m in Sources */,
+				F92873841C23FDE9002B3D48 /* ZOWVideoPlayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F92873771C23FCF9002B3D48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F92873781C23FCF9002B3D48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F928737A1C23FCF9002B3D48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = include/ZOWVideoPlayer;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F928737B1C23FCF9002B3D48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = include/ZOWVideoPlayer;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F928736B1C23FCF9002B3D48 /* Build configuration list for PBXProject "ZOWVideoPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F92873771C23FCF9002B3D48 /* Debug */,
+				F92873781C23FCF9002B3D48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F92873791C23FCF9002B3D48 /* Build configuration list for PBXNativeTarget "ZOWVideoPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F928737A1C23FCF9002B3D48 /* Debug */,
+				F928737B1C23FCF9002B3D48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F92873681C23FCF9002B3D48 /* Project object */;
+}
