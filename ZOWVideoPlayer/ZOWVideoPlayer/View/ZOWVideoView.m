@@ -32,11 +32,19 @@
 }
 
 - (void)pause {
-    
+    [self.videoPlayer pause];
 }
 
 - (void)resume {
-    
+    [self.videoPlayer resume];
+}
+
+- (void)mute {
+    [self.videoPlayer setMute:YES];
+}
+
+- (void)unmute {
+    [self.videoPlayer setMute:NO];
 }
 
 #pragma mark - Private

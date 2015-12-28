@@ -45,11 +45,11 @@
 }
 
 - (void)pauseVideo:(id)sender {
-    [_videoView.videoPlayer pause];
+    [_videoView pause];
 }
 
 - (void)playVideo:(id)sender {
-    [_videoView.videoPlayer resume];
+    [_videoView resume];
 }
 
 - (void)stopVideo:(id)sender {

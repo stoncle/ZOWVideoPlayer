@@ -21,5 +21,7 @@
 - (void)stopVideoPlay;
 - (void)pause;
 - (void)resume;
+- (void)mute;
+- (void)unmute;
 
 @end
