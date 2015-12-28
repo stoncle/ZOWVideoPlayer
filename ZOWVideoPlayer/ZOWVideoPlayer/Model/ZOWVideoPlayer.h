@@ -7,23 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "ZOWVideoPlayerProtocol.h"
 @import UIKit;
 
 @class ZOWVideoPlayer;
 @class ZOWVideoPlayerLayerContainerView;
 @class AVPlayerLayer;
-
-@protocol ZOWVideoPlayerProtocol <NSObject>
-
-@property (nonatomic, strong) ZOWVideoPlayer *videoPlayer;
-@property (nonatomic, strong) ZOWVideoPlayerLayerContainerView *videoLayerContainerView;
-
-@optional
-- (void)notifyLoadingVideoSuccessed;
-- (void)notifyLoadingVideoFailed;
-- (void)notifyCancelLoadingVideo;
-
-@end
 
 @protocol ZOWVideoPlayerDataSource <NSObject>
 

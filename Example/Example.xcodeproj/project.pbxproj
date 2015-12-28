@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F91358AA1C30EC920041ED55 /* refresh@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F913589B1C30EC920041ED55 /* refresh@2x.png */; };
+		F91358AB1C30EC920041ED55 /* refresh@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F913589C1C30EC920041ED55 /* refresh@3x.png */; };
+		F91358AC1C30EC920041ED55 /* video_loading@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F913589D1C30EC920041ED55 /* video_loading@2x.png */; };
+		F91358AD1C30EC920041ED55 /* video_loading@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F913589E1C30EC920041ED55 /* video_loading@3x.png */; };
+		F91358AE1C30EC920041ED55 /* voice_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F913589F1C30EC920041ED55 /* voice_off@2x.png */; };
+		F91358AF1C30EC920041ED55 /* voice_off@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F91358A01C30EC920041ED55 /* voice_off@3x.png */; };
+		F91358B01C30EC920041ED55 /* voice_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F91358A11C30EC920041ED55 /* voice_on@2x.png */; };
+		F91358B11C30EC920041ED55 /* voice_on@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F91358A21C30EC920041ED55 /* voice_on@3x.png */; };
+		F91358B21C30EC920041ED55 /* ZOWVideoIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = F91358A51C30EC920041ED55 /* ZOWVideoIndicator.m */; };
+		F91358B31C30EC920041ED55 /* ZOWVideoMuteIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = F91358A71C30EC920041ED55 /* ZOWVideoMuteIndicator.m */; };
+		F91358B41C30EC920041ED55 /* InstagramVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = F91358A91C30EC920041ED55 /* InstagramVideoView.m */; };
+		F91358B71C30ECF30041ED55 /* ZOWVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = F91358B61C30ECF30041ED55 /* ZOWVideoView.m */; };
+		F91358BB1C30ED450041ED55 /* ZOWVideoPlayerLayerContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F91358BA1C30ED450041ED55 /* ZOWVideoPlayerLayerContainerView.m */; };
 		F91612881C284A7800F6E951 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F91612871C284A7800F6E951 /* AVFoundation.framework */; };
 		F916128A1C284AAA00F6E951 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F91612891C284AAA00F6E951 /* CoreMedia.framework */; };
 		F916128C1C284ADA00F6E951 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F916128B1C284ADA00F6E951 /* MobileCoreServices.framework */; };
@@ -19,18 +32,6 @@
 		F916135C1C28542600F6E951 /* ZOWThreadDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = F916133D1C28542600F6E951 /* ZOWThreadDictionary.m */; };
 		F916135D1C28542600F6E951 /* ZOWVideoSourceLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = F91613401C28542600F6E951 /* ZOWVideoSourceLoader.m */; };
 		F916135E1C28542600F6E951 /* ZOWVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F91613421C28542600F6E951 /* ZOWVideoPlayer.m */; };
-		F916135F1C28542600F6E951 /* ZOWVideoIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = F91613471C28542600F6E951 /* ZOWVideoIndicator.m */; };
-		F91613601C28542600F6E951 /* ZOWVideoMuteIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = F91613491C28542600F6E951 /* ZOWVideoMuteIndicator.m */; };
-		F91613611C28542600F6E951 /* InstagramVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = F916134B1C28542600F6E951 /* InstagramVideoView.m */; };
-		F91613621C28542600F6E951 /* ZOWVideoPlayerLayerContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F916134D1C28542600F6E951 /* ZOWVideoPlayerLayerContainerView.m */; };
-		F91EC96A1C2B07E500A2A854 /* refresh@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F91EC9621C2B07E500A2A854 /* refresh@2x.png */; };
-		F91EC96B1C2B07E500A2A854 /* refresh@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F91EC9631C2B07E500A2A854 /* refresh@3x.png */; };
-		F91EC96C1C2B07E500A2A854 /* video_loading@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F91EC9641C2B07E500A2A854 /* video_loading@2x.png */; };
-		F91EC96D1C2B07E500A2A854 /* video_loading@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F91EC9651C2B07E500A2A854 /* video_loading@3x.png */; };
-		F91EC96E1C2B07E500A2A854 /* voice_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F91EC9661C2B07E500A2A854 /* voice_off@2x.png */; };
-		F91EC96F1C2B07E500A2A854 /* voice_off@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F91EC9671C2B07E500A2A854 /* voice_off@3x.png */; };
-		F91EC9701C2B07E500A2A854 /* voice_on@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F91EC9681C2B07E500A2A854 /* voice_on@2x.png */; };
-		F91EC9711C2B07E500A2A854 /* voice_on@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F91EC9691C2B07E500A2A854 /* voice_on@3x.png */; };
 		F92872AC1C23F4E3002B3D48 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F92872AB1C23F4E3002B3D48 /* main.m */; };
 		F92872AF1C23F4E3002B3D48 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F92872AE1C23F4E3002B3D48 /* AppDelegate.m */; };
 		F92872B21C23F4E3002B3D48 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F92872B11C23F4E3002B3D48 /* ViewController.m */; };
@@ -59,6 +60,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F90278111C3189E00020BEAB /* ZOWVideoPlayerProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZOWVideoPlayerProtocol.h; sourceTree = "<group>"; };
+		F913589B1C30EC920041ED55 /* refresh@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "refresh@2x.png"; sourceTree = "<group>"; };
+		F913589C1C30EC920041ED55 /* refresh@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "refresh@3x.png"; sourceTree = "<group>"; };
+		F913589D1C30EC920041ED55 /* video_loading@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "video_loading@2x.png"; sourceTree = "<group>"; };
+		F913589E1C30EC920041ED55 /* video_loading@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "video_loading@3x.png"; sourceTree = "<group>"; };
+		F913589F1C30EC920041ED55 /* voice_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voice_off@2x.png"; sourceTree = "<group>"; };
+		F91358A01C30EC920041ED55 /* voice_off@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voice_off@3x.png"; sourceTree = "<group>"; };
+		F91358A11C30EC920041ED55 /* voice_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voice_on@2x.png"; sourceTree = "<group>"; };
+		F91358A21C30EC920041ED55 /* voice_on@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voice_on@3x.png"; sourceTree = "<group>"; };
+		F91358A41C30EC920041ED55 /* ZOWVideoIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZOWVideoIndicator.h; sourceTree = "<group>"; };
+		F91358A51C30EC920041ED55 /* ZOWVideoIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZOWVideoIndicator.m; sourceTree = "<group>"; };
+		F91358A61C30EC920041ED55 /* ZOWVideoMuteIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZOWVideoMuteIndicator.h; sourceTree = "<group>"; };
+		F91358A71C30EC920041ED55 /* ZOWVideoMuteIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZOWVideoMuteIndicator.m; sourceTree = "<group>"; };
+		F91358A81C30EC920041ED55 /* InstagramVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstagramVideoView.h; sourceTree = "<group>"; };
+		F91358A91C30EC920041ED55 /* InstagramVideoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstagramVideoView.m; sourceTree = "<group>"; };
+		F91358B51C30ECF30041ED55 /* ZOWVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZOWVideoView.h; sourceTree = "<group>"; };
+		F91358B61C30ECF30041ED55 /* ZOWVideoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZOWVideoView.m; sourceTree = "<group>"; };
+		F91358B91C30ED450041ED55 /* ZOWVideoPlayerLayerContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZOWVideoPlayerLayerContainerView.h; sourceTree = "<group>"; };
+		F91358BA1C30ED450041ED55 /* ZOWVideoPlayerLayerContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZOWVideoPlayerLayerContainerView.m; sourceTree = "<group>"; };
 		F91612871C284A7800F6E951 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		F91612891C284AAA00F6E951 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		F916128B1C284ADA00F6E951 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
@@ -80,22 +100,6 @@
 		F91613401C28542600F6E951 /* ZOWVideoSourceLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZOWVideoSourceLoader.m; sourceTree = "<group>"; };
 		F91613411C28542600F6E951 /* ZOWVideoPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZOWVideoPlayer.h; sourceTree = "<group>"; };
 		F91613421C28542600F6E951 /* ZOWVideoPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZOWVideoPlayer.m; sourceTree = "<group>"; };
-		F91613461C28542600F6E951 /* ZOWVideoIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZOWVideoIndicator.h; sourceTree = "<group>"; };
-		F91613471C28542600F6E951 /* ZOWVideoIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZOWVideoIndicator.m; sourceTree = "<group>"; };
-		F91613481C28542600F6E951 /* ZOWVideoMuteIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZOWVideoMuteIndicator.h; sourceTree = "<group>"; };
-		F91613491C28542600F6E951 /* ZOWVideoMuteIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZOWVideoMuteIndicator.m; sourceTree = "<group>"; };
-		F916134A1C28542600F6E951 /* InstagramVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstagramVideoView.h; sourceTree = "<group>"; };
-		F916134B1C28542600F6E951 /* InstagramVideoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstagramVideoView.m; sourceTree = "<group>"; };
-		F916134C1C28542600F6E951 /* ZOWVideoPlayerLayerContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZOWVideoPlayerLayerContainerView.h; sourceTree = "<group>"; };
-		F916134D1C28542600F6E951 /* ZOWVideoPlayerLayerContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZOWVideoPlayerLayerContainerView.m; sourceTree = "<group>"; };
-		F91EC9621C2B07E500A2A854 /* refresh@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "refresh@2x.png"; sourceTree = "<group>"; };
-		F91EC9631C2B07E500A2A854 /* refresh@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "refresh@3x.png"; sourceTree = "<group>"; };
-		F91EC9641C2B07E500A2A854 /* video_loading@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "video_loading@2x.png"; sourceTree = "<group>"; };
-		F91EC9651C2B07E500A2A854 /* video_loading@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "video_loading@3x.png"; sourceTree = "<group>"; };
-		F91EC9661C2B07E500A2A854 /* voice_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voice_off@2x.png"; sourceTree = "<group>"; };
-		F91EC9671C2B07E500A2A854 /* voice_off@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voice_off@3x.png"; sourceTree = "<group>"; };
-		F91EC9681C2B07E500A2A854 /* voice_on@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voice_on@2x.png"; sourceTree = "<group>"; };
-		F91EC9691C2B07E500A2A854 /* voice_on@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "voice_on@3x.png"; sourceTree = "<group>"; };
 		F92872A71C23F4E3002B3D48 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F92872AB1C23F4E3002B3D48 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F92872AD1C23F4E3002B3D48 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -142,6 +146,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F90278101C3189110020BEAB /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				F90278111C3189E00020BEAB /* ZOWVideoPlayerProtocol.h */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		F91358981C30EC920041ED55 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				F91358991C30EC920041ED55 /* InstagramVideoView */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		F91358991C30EC920041ED55 /* InstagramVideoView */ = {
+			isa = PBXGroup;
+			children = (
+				F913589A1C30EC920041ED55 /* Image */,
+				F91358A31C30EC920041ED55 /* Indicator */,
+				F91358A81C30EC920041ED55 /* InstagramVideoView.h */,
+				F91358A91C30EC920041ED55 /* InstagramVideoView.m */,
+			);
+			path = InstagramVideoView;
+			sourceTree = "<group>";
+		};
+		F913589A1C30EC920041ED55 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				F913589B1C30EC920041ED55 /* refresh@2x.png */,
+				F913589C1C30EC920041ED55 /* refresh@3x.png */,
+				F913589D1C30EC920041ED55 /* video_loading@2x.png */,
+				F913589E1C30EC920041ED55 /* video_loading@3x.png */,
+				F913589F1C30EC920041ED55 /* voice_off@2x.png */,
+				F91358A01C30EC920041ED55 /* voice_off@3x.png */,
+				F91358A11C30EC920041ED55 /* voice_on@2x.png */,
+				F91358A21C30EC920041ED55 /* voice_on@3x.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		F91358A31C30EC920041ED55 /* Indicator */ = {
+			isa = PBXGroup;
+			children = (
+				F91358A41C30EC920041ED55 /* ZOWVideoIndicator.h */,
+				F91358A51C30EC920041ED55 /* ZOWVideoIndicator.m */,
+				F91358A61C30EC920041ED55 /* ZOWVideoMuteIndicator.h */,
+				F91358A71C30EC920041ED55 /* ZOWVideoMuteIndicator.m */,
+			);
+			path = Indicator;
+			sourceTree = "<group>";
+		};
+		F91358B81C30ED250041ED55 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				F91358B91C30ED450041ED55 /* ZOWVideoPlayerLayerContainerView.h */,
+				F91358BA1C30ED450041ED55 /* ZOWVideoPlayerLayerContainerView.m */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
 		F91613211C28542600F6E951 /* ZOWVideoPlayer */ = {
 			isa = PBXGroup;
 			children = (
@@ -155,6 +221,7 @@
 		F916132B1C28542600F6E951 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				F90278101C3189110020BEAB /* Protocol */,
 				F916132C1C28542600F6E951 /* Cache */,
 				F916132F1C28542600F6E951 /* Domain */,
 				F91613341C28542600F6E951 /* Tool */,
@@ -220,48 +287,12 @@
 		F91613431C28542600F6E951 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				F91613441C28542600F6E951 /* InstagramVideoView */,
-				F916134C1C28542600F6E951 /* ZOWVideoPlayerLayerContainerView.h */,
-				F916134D1C28542600F6E951 /* ZOWVideoPlayerLayerContainerView.m */,
+				F91358B81C30ED250041ED55 /* Component */,
+				F91358981C30EC920041ED55 /* Custom */,
+				F91358B51C30ECF30041ED55 /* ZOWVideoView.h */,
+				F91358B61C30ECF30041ED55 /* ZOWVideoView.m */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		F91613441C28542600F6E951 /* InstagramVideoView */ = {
-			isa = PBXGroup;
-			children = (
-				F91EC9611C2B07E500A2A854 /* Image */,
-				F91613451C28542600F6E951 /* Indicator */,
-				F916134A1C28542600F6E951 /* InstagramVideoView.h */,
-				F916134B1C28542600F6E951 /* InstagramVideoView.m */,
-			);
-			path = InstagramVideoView;
-			sourceTree = "<group>";
-		};
-		F91613451C28542600F6E951 /* Indicator */ = {
-			isa = PBXGroup;
-			children = (
-				F91613461C28542600F6E951 /* ZOWVideoIndicator.h */,
-				F91613471C28542600F6E951 /* ZOWVideoIndicator.m */,
-				F91613481C28542600F6E951 /* ZOWVideoMuteIndicator.h */,
-				F91613491C28542600F6E951 /* ZOWVideoMuteIndicator.m */,
-			);
-			path = Indicator;
-			sourceTree = "<group>";
-		};
-		F91EC9611C2B07E500A2A854 /* Image */ = {
-			isa = PBXGroup;
-			children = (
-				F91EC9621C2B07E500A2A854 /* refresh@2x.png */,
-				F91EC9631C2B07E500A2A854 /* refresh@3x.png */,
-				F91EC9641C2B07E500A2A854 /* video_loading@2x.png */,
-				F91EC9651C2B07E500A2A854 /* video_loading@3x.png */,
-				F91EC9661C2B07E500A2A854 /* voice_off@2x.png */,
-				F91EC9671C2B07E500A2A854 /* voice_off@3x.png */,
-				F91EC9681C2B07E500A2A854 /* voice_on@2x.png */,
-				F91EC9691C2B07E500A2A854 /* voice_on@3x.png */,
-			);
-			path = Image;
 			sourceTree = "<group>";
 		};
 		F928729E1C23F4E3002B3D48 = {
@@ -434,15 +465,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				F92872BA1C23F4E3002B3D48 /* LaunchScreen.storyboard in Resources */,
-				F91EC9711C2B07E500A2A854 /* voice_on@3x.png in Resources */,
+				F91358B11C30EC920041ED55 /* voice_on@3x.png in Resources */,
 				F92872B71C23F4E3002B3D48 /* Assets.xcassets in Resources */,
-				F91EC9701C2B07E500A2A854 /* voice_on@2x.png in Resources */,
-				F91EC96A1C2B07E500A2A854 /* refresh@2x.png in Resources */,
-				F91EC96C1C2B07E500A2A854 /* video_loading@2x.png in Resources */,
-				F91EC96B1C2B07E500A2A854 /* refresh@3x.png in Resources */,
-				F91EC96E1C2B07E500A2A854 /* voice_off@2x.png in Resources */,
-				F91EC96F1C2B07E500A2A854 /* voice_off@3x.png in Resources */,
-				F91EC96D1C2B07E500A2A854 /* video_loading@3x.png in Resources */,
+				F91358B01C30EC920041ED55 /* voice_on@2x.png in Resources */,
+				F91358AA1C30EC920041ED55 /* refresh@2x.png in Resources */,
+				F91358AC1C30EC920041ED55 /* video_loading@2x.png in Resources */,
+				F91358AB1C30EC920041ED55 /* refresh@3x.png in Resources */,
+				F91358AE1C30EC920041ED55 /* voice_off@2x.png in Resources */,
+				F91358AF1C30EC920041ED55 /* voice_off@3x.png in Resources */,
+				F91358AD1C30EC920041ED55 /* video_loading@3x.png in Resources */,
 				F92872B51C23F4E3002B3D48 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -468,22 +499,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F91358B21C30EC920041ED55 /* ZOWVideoIndicator.m in Sources */,
 				F91613591C28542600F6E951 /* NSString+Md5.m in Sources */,
 				F92872B21C23F4E3002B3D48 /* ViewController.m in Sources */,
 				F91613561C28542600F6E951 /* ZOWVideoCache.m in Sources */,
 				F916135E1C28542600F6E951 /* ZOWVideoPlayer.m in Sources */,
 				F92872AF1C23F4E3002B3D48 /* AppDelegate.m in Sources */,
-				F91613611C28542600F6E951 /* InstagramVideoView.m in Sources */,
+				F91358BB1C30ED450041ED55 /* ZOWVideoPlayerLayerContainerView.m in Sources */,
 				F916135D1C28542600F6E951 /* ZOWVideoSourceLoader.m in Sources */,
+				F91358B41C30EC920041ED55 /* InstagramVideoView.m in Sources */,
 				F916135C1C28542600F6E951 /* ZOWThreadDictionary.m in Sources */,
-				F91613601C28542600F6E951 /* ZOWVideoMuteIndicator.m in Sources */,
 				F916135A1C28542600F6E951 /* NSString+Suffix.m in Sources */,
 				F916135B1C28542600F6E951 /* ZOWSchemedURL.m in Sources */,
 				F91613571C28542600F6E951 /* ZOWVideoPlayerItemObject.m in Sources */,
-				F91613621C28542600F6E951 /* ZOWVideoPlayerLayerContainerView.m in Sources */,
+				F91358B31C30EC920041ED55 /* ZOWVideoMuteIndicator.m in Sources */,
+				F91358B71C30ECF30041ED55 /* ZOWVideoView.m in Sources */,
 				F91613581C28542600F6E951 /* ZOWVideoSourceItem.m in Sources */,
 				F92872AC1C23F4E3002B3D48 /* main.m in Sources */,
-				F916135F1C28542600F6E951 /* ZOWVideoIndicator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
