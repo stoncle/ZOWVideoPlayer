@@ -19,3 +19,9 @@ You can play video through a ZOWVideoPlayerView subclass with
     
 and the view itself will handle the video behaviors.
 Check the **InstagramVideoView** implementation example in the project to learn more about the subclassing.
+
+## Features
+### Preload Buffer
+### Cache
+### End Action
+### Background Resume
