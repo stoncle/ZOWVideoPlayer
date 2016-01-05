@@ -22,10 +22,10 @@ Check the **InstagramVideoView** implementation example in the project to learn 
 
 ## Features
 ### Preload Buffer
-    if video play stuck when loading, the player will pause and prebuffer a few seconds to provide a merely smooth video play.
+  if video play stuck when loading, the player will pause and prebuffer a few seconds to provide a merely smooth video play.
 ### Cache
-    when a web video finishes play, the video will be auto cached. And when the next time you play the video through the **same url**, the cached video will be played. You can customize the video cached path through the **videoCachedDirectory** property.
+  when a web video finishes play, the video will be auto cached. And when the next time you play the video through the **same url**, the cached video will be played. You can customize the video cached path through the **videoCachedDirectory** property.
 ### End Action
-    provide end action to define the behavior of the video when video play reaching the end. You can reset the video status or replay it or just pause it at the end.
+  provide end action to define the behavior of the video when video play reaching the end. You can reset the video status or replay it or just pause it at the end.
 ### Background Resume
-    on default, the video play will auto pause when enter background, and auto resume when enter foreground. Set **autoResumeFromBackground** to NO to avoid auto resume. 
+  on default, the video play will auto pause when enter background, and auto resume when enter foreground. Set **autoResumeFromBackground** to NO to avoid auto resume. 
