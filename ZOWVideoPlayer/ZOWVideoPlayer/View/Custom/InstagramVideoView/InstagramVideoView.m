@@ -42,14 +42,12 @@
         NSLog(@"stoncle debug : video url is nil.");
         return;
     }
+    self.hidden = NO;
     
     [self initIndicator];
     [self initMuteIndicator];
     
     [self showIndicator];
-    
-    self.hidden = NO;
-    
     [super playVideoWithURL:url];
 }
 
@@ -87,7 +85,7 @@
     {
         self.videoLayerContainerView = [[ZOWVideoPlayerLayerContainerView alloc] initWithFrame:self.bounds];
         self.videoLayerContainerView.layer.opacity = 0;
-        [self addSubview:self.videoLayerContainerView];
+        [self insertSubview:self.videoLayerContainerView atIndex:0];
     }
 }
 
