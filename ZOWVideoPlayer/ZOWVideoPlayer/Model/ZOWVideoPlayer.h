@@ -72,6 +72,11 @@ typedef NS_ENUM(NSUInteger, ZOWVideoPlayerEndAction) {
 @property (nonatomic, assign) CGFloat preloadBufferSecondsWhenStucked;
 
 /**
+ *  when YES, video will resume play when enter foreground from background.
+ */
+@property (nonatomic, assign) BOOL autoResumeFromBackground;
+
+/**
  *  directory to save video caches.
  */
 @property (nonatomic, copy) NSString *videoCachedDirectory;

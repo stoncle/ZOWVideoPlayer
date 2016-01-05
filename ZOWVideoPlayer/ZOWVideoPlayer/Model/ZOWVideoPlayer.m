@@ -36,6 +36,7 @@ static const CGFloat defaultPreBufferSeconds = 2.0;
         _observingItem = [NSMutableArray array];
         _playerItemObject = [[ZOWVideoPlayerItemObject alloc] init];
         _preloadBufferSecondsWhenStucked = defaultPreBufferSeconds;
+        _autoResumeFromBackground = YES;
     }
     return self;
 }
@@ -398,8 +399,11 @@ static const CGFloat defaultPreBufferSeconds = 2.0;
 
 - (void)didResumeFromBackground:(NSNotification *)note
 {
-    [self playVideo];
-    NSLog(@"stoncle debug : did receive resume from background notification. replay video");
+    NSLog(@"stoncle debug : did receive resume from background notification");
+    if (self.autoResumeFromBackground)
+    {
+        [self playVideo];
+    }
 }
 
 #pragma mark Video Play

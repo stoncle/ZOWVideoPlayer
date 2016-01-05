@@ -11,6 +11,7 @@
 
 @interface ViewController ()
 
+@property (nonatomic, strong) UITableView *tableView;
 @property (nonatomic, strong) ZOWVideoView *videoView;
 
 @end
