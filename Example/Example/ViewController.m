@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "InstagramVideoView.h"
 #import "InstagramViewController.h"
+#import "ZOWVideoCache.h"
 
 static const NSString *cellIdentifier = @"cellIdentifier";
 
@@ -25,6 +26,8 @@ static const NSString *cellIdentifier = @"cellIdentifier";
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.navigationItem.title = @"ZOWVideoPlayerExample";
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"ClearCache" style:UIBarButtonItemStylePlain target:self action:@selector(clearCache)];
+    
     _tableView = [[UITableView alloc] initWithFrame:self.view.bounds];
     _tableView.dataSource = self;
     _tableView.delegate = self;
@@ -36,6 +39,11 @@ static const NSString *cellIdentifier = @"cellIdentifier";
 
 - (void)prepareDataSource {
     _data = [@[@"instagram", @"common"] mutableCopy];
+}
+
+- (void)clearCache {
+    [[ZOWVideoCache sharedVideoCache] clearAllCache];
+    NSLog(@"cache cleard");
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {

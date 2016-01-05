@@ -21,6 +21,7 @@
 - (void)viewDidLoad {
     self.view.backgroundColor = [UIColor whiteColor];
     _videoView = [[InstagramVideoView alloc] initWithFrame:CGRectMake(20, 20+64, 300, 300)];
+    _videoView.backgroundColor = [UIColor grayColor];
     
     UIButton *pauseButton = [[UIButton alloc] initWithFrame:CGRectMake(20, 400+64, 100, 30)];
     pauseButton.backgroundColor = [UIColor yellowColor];
