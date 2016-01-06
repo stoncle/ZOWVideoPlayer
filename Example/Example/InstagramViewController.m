@@ -12,7 +12,7 @@
 
 @interface InstagramViewController ()
 
-@property (nonatomic, strong) ZOWVideoView *videoView;
+@property (nonatomic, strong) InstagramVideoView *videoView;
 
 @end
 
