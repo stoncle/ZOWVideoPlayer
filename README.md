@@ -5,6 +5,7 @@
 Drag ZOWVideoPlayer folder into your project, then link **MobileCoreServices.framework**, **CoreMedia.framework** and **AVFoundation.framework** in your project Build Phases.
 
 ## Play Videos
+### Play video through a ZOWVideoPlayer
 You can **#import "ZOWVideoPlayer.h"** and call
 
     [self.videoPlayer playVideoWithURL:url];
@@ -19,6 +20,8 @@ You can play video through a ZOWVideoPlayerView subclass with
     
 and the view itself will handle the video behaviors.
 Check the **InstagramVideoView** implementation example in the project to learn more about the subclassing.
+### Stop video play
+If you want to stop a video, call **[self.videoPlayer stopVideoPlay]** or **[self.videoView stopVideoPlay]** to stop it. This will cancel the video buffering, remove the video layer and remove all the notifications. If you just want to pause the video, just call the pause method.
 
 ## Features
 ### Preload Buffer
