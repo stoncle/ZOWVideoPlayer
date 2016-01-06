@@ -276,9 +276,6 @@
     [super notifyCancelLoadingVideo];
 }
 
-- (void)dealloc
-{
-    [self.videoPlayer stopVideoPlay];
-}
+
 
 @end

@@ -95,4 +95,9 @@
     [self hideVideoLayer];
 }
 
+- (void)dealloc
+{
+    [self.videoPlayer stopVideoPlay];
+}
+
 @end
