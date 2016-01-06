@@ -33,6 +33,8 @@
 		F916135D1C28542600F6E951 /* ZOWVideoSourceLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = F91613401C28542600F6E951 /* ZOWVideoSourceLoader.m */; };
 		F916135E1C28542600F6E951 /* ZOWVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F91613421C28542600F6E951 /* ZOWVideoPlayer.m */; };
 		F91BA6BB1C3C0608008D76CC /* InstagramViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F91BA6BA1C3C0608008D76CC /* InstagramViewController.m */; };
+		F91BA6C61C3CCA7A008D76CC /* CommonVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F91BA6C51C3CCA7A008D76CC /* CommonVideoViewController.m */; };
+		F91BA6CA1C3CCBFF008D76CC /* CommonVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = F91BA6C91C3CCBFF008D76CC /* CommonVideoView.m */; };
 		F92872AC1C23F4E3002B3D48 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F92872AB1C23F4E3002B3D48 /* main.m */; };
 		F92872AF1C23F4E3002B3D48 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F92872AE1C23F4E3002B3D48 /* AppDelegate.m */; };
 		F92872B21C23F4E3002B3D48 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F92872B11C23F4E3002B3D48 /* ViewController.m */; };
@@ -103,6 +105,10 @@
 		F91613421C28542600F6E951 /* ZOWVideoPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZOWVideoPlayer.m; sourceTree = "<group>"; };
 		F91BA6B91C3C0608008D76CC /* InstagramViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstagramViewController.h; sourceTree = "<group>"; };
 		F91BA6BA1C3C0608008D76CC /* InstagramViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstagramViewController.m; sourceTree = "<group>"; };
+		F91BA6C41C3CCA7A008D76CC /* CommonVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonVideoViewController.h; sourceTree = "<group>"; };
+		F91BA6C51C3CCA7A008D76CC /* CommonVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonVideoViewController.m; sourceTree = "<group>"; };
+		F91BA6C81C3CCBFF008D76CC /* CommonVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonVideoView.h; sourceTree = "<group>"; };
+		F91BA6C91C3CCBFF008D76CC /* CommonVideoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonVideoView.m; sourceTree = "<group>"; };
 		F92872A71C23F4E3002B3D48 /* Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F92872AB1C23F4E3002B3D48 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F92872AD1C23F4E3002B3D48 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -160,6 +166,7 @@
 		F91358981C30EC920041ED55 /* Custom */ = {
 			isa = PBXGroup;
 			children = (
+				F91BA6C71C3CCBE7008D76CC /* CommonVideoView */,
 				F91358991C30EC920041ED55 /* InstagramVideoView */,
 			);
 			path = Custom;
@@ -298,6 +305,15 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		F91BA6C71C3CCBE7008D76CC /* CommonVideoView */ = {
+			isa = PBXGroup;
+			children = (
+				F91BA6C81C3CCBFF008D76CC /* CommonVideoView.h */,
+				F91BA6C91C3CCBFF008D76CC /* CommonVideoView.m */,
+			);
+			path = CommonVideoView;
+			sourceTree = "<group>";
+		};
 		F928729E1C23F4E3002B3D48 = {
 			isa = PBXGroup;
 			children = (
@@ -336,6 +352,8 @@
 				F92872AA1C23F4E3002B3D48 /* Supporting Files */,
 				F91BA6B91C3C0608008D76CC /* InstagramViewController.h */,
 				F91BA6BA1C3C0608008D76CC /* InstagramViewController.m */,
+				F91BA6C41C3CCA7A008D76CC /* CommonVideoViewController.h */,
+				F91BA6C51C3CCA7A008D76CC /* CommonVideoViewController.m */,
 			);
 			path = Example;
 			sourceTree = "<group>";
@@ -519,8 +537,10 @@
 				F916135B1C28542600F6E951 /* ZOWSchemedURL.m in Sources */,
 				F91613571C28542600F6E951 /* ZOWVideoPlayerItemObject.m in Sources */,
 				F91358B31C30EC920041ED55 /* ZOWVideoMuteIndicator.m in Sources */,
+				F91BA6CA1C3CCBFF008D76CC /* CommonVideoView.m in Sources */,
 				F91358B71C30ECF30041ED55 /* ZOWVideoView.m in Sources */,
 				F91613581C28542600F6E951 /* ZOWVideoSourceItem.m in Sources */,
+				F91BA6C61C3CCA7A008D76CC /* CommonVideoViewController.m in Sources */,
 				F92872AC1C23F4E3002B3D48 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

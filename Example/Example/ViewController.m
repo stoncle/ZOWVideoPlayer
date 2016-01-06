@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "InstagramVideoView.h"
 #import "InstagramViewController.h"
+#import "CommonVideoViewController.h"
 #import "ZOWVideoCache.h"
 
 static const NSString *cellIdentifier = @"cellIdentifier";
@@ -65,7 +66,8 @@ static const NSString *cellIdentifier = @"cellIdentifier";
         InstagramViewController *insVC = [[InstagramViewController alloc] init];
         [self.navigationController pushViewController:insVC animated:YES];
     } else if (indexPath.row < _data.count && [_data[indexPath.row] isEqualToString:@"common"]) {
-        
+        CommonVideoViewController *commVC = [[CommonVideoViewController alloc] init];
+        [self.navigationController pushViewController:commVC animated:YES];
     }
 }
 
